@@ -4,6 +4,8 @@ Ein React-Frontend für die Todo-App-Übung bei neue fische — gebaut mit Vite,
 
 Das zugehörige Backend (Spring Boot + MongoDB): [java-todo-backend-training](https://github.com/codeByFrank/java-todo-backend-training)
 
+![Screenshot der Todo App](screenshot.png)
+
 ## Tech-Stack
 
 - React 19 + TypeScript
