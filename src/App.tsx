@@ -67,7 +67,7 @@ function App() {
 
             <div className="board">
                 {(["OPEN", "IN_PROGRESS", "DONE"] as TodoStatus[]).map(status => (
-                    <section key={status} className="column">
+                    <section key={status} className={`column column-${status.toLowerCase()}`}>
                         <h2>{statusLabels[status]}</h2>
                         {todos
                             .filter(todo => todo.status === status)
